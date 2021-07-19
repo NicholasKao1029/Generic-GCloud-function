@@ -46,7 +46,7 @@ npm install --save-dev @google-cloud/functions-framework
 
 #### environment variables
 
-[env var documentation] (https://cloud.google.com/functions/docs/env-var)
+[env var documentation](https://cloud.google.com/functions/docs/env-var)
 
 - There is a .env.yaml file that can be used to denote the appropriate environment
 variables although the default is that it will be ignored by git and gcloud git.
