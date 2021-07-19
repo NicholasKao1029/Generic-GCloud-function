@@ -1,0 +1,16 @@
+{
+  "name": "ad-auris-dynamic-widget-data",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "npx functions-framework --target=getUrlNarration [--signature-type=http]",
+    "deploy": "gcloud functions deploy dynamic-widget-data --entry-point getUrlNarration --runtime nodejs12 --trigger-http --allow-unauthenticated"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.6.0",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^1.9.0"
+  }
+}
